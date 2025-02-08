@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  restart-bot:
+    image: node:16-alpine
+    container_name: restart-bot-telegram
+    ports:
+      - "3233:3000"
+    volumes:
+      - ./app:/usr/src/app
+    working_dir: /usr/src/app
+    command: sh -c "npm install && node server.js"
+    restart: unless-stopped
