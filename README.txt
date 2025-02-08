@@ -6,8 +6,8 @@ Aplikasi sederhana untuk merestart service Telegram bot di CasaOS.
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/mknetid/casaos-restart-bot.git
-   cd casaos-restart-bot
+   git clone https://github.com/mknetid/restart-bot-telegram.git
+   cd restart-bot-telegram
    
 2. Jalankan aplikasi menggunakan Docker Compose:
    ```bash
